@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightGray"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:text="@string/publish_date" />
+
+    <ImageView
+        android:id="@+id/image_news"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/news_thumbnail_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:ellipsize="end"
+        android:fontFamily="@string/font_type"
+        android:maxLines="2"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/title_item_text_size"
+        android:textStyle="bold"
+        tools:text="@string/news_title" />
+
+    <TextView
+        android:id="@+id/text_author"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:fontFamily="sans-serif"
+        android:maxLines="1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        tools:text="@string/author" />
+
+    <TextView
+        android:id="@+id/text_trail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:ellipsize="end"
+        android:fontFamily="@string/font_type"
+        android:maxLines="3"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text="@string/trail_text" />
+</LinearLayout>
+

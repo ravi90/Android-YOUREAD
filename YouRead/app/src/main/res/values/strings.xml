@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">YouRead</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error">"Error"</string>
+    <string name="edit_text_hint">Search YouRead</string>
+    <string name="button_text">Search</string>
+    <string name="font_type">sans-serif</string>
+    <string name="exception">exception</string>
+    <string name="publish_date">Published Date :</string>
+    <string name="news_title">US and UK rhetoric unacceptable</string>
+    <string name="author">Author :</string>
+    <string name="base_url">http://content.guardianapis.com/search</string>
+    <string name="trail_text">have a sequence of events that I am trying to create using jQuery but I am failing miserably. I have a number of lists with a number of li</string>
+    <string name="category_business">Business</string>
+    <string name="category_celebrities">Celebrities</string>
+    <string name="category_economy">Economy</string>
+    <string name="category_education">Education</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_fashion">Fashion</string>
+    <string name="category_finance">Finance</string>
+    <string name="category_fitness">Fitness</string>
+    <string name="category_food">Food</string>
+    <string name="category_gaming">Gaming</string>
+    <string name="category_health">Health</string>
+    <string name="category_history">History</string>
+    <string name="category_law">Law</string>
+    <string name="category_life_style">Life Style</string>
+    <string name="category_marketing">Marketing</string>
+    <string name="category_medical">Medical</string>
+    <string name="category_politics">Politics</string>
+    <string name="category_science">Science</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="category_social_media">Social Media</string>
+    <string name="category_sports">Sports</string>
+    <string name="category_technology">Technology</string>
+    <string name="category_travel">Travel</string>
+    <string name="category_weather">Weather</string>
+
+    <string name="page_size">page-size</string>
+    <string name="no_of_items">50</string>
+    <string name="show_fields">show-fields</string>
+    <string name="fields">thumbnail,trailText</string>
+    <string name="show_references">show-references</string>
+    <string name="author_query">author</string>
+    <string name="api_key">api-key</string>
+    <string name="api_key_val">test</string>
+    <string name="replace">%2C</string>
+    <string name="comma">,</string>
+
+    <string name="title_home">Home</string>
+    <string name="published_date">Published date:</string>
+    <string name="not_available">Not available</string>
+    <string name="error_in_stream">Error closing input stream</string>
+    <string name="get">GET</string>
+    <string name="error_in_url">"Error with creating URL</string>
+    <string name="error_respond">Error response code:</string>
+    <string name="problem">Problem retrieving the News JSON results.</string>
+    <string name="utf8">UTF-8</string>
+    <string name="response">response</string>
+    <string name="results">results</string>
+    <string name="unknow">Unknown</string>
+    <string name="problem_parsing_result">Problem parsing the news JSON results</string>
+
+    <string name="web_title">webTitle</string>
+    <string name="web_url">webUrl</string>
+    <string name="web_date">webPublicationDate</string>
+    <string name="reference">references</string>
+    <string name="id">id</string>
+    <string name="fields_json">fields</string>
+    <string name="trailText">trailText</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="no_result_found">No result found</string>
+
+    <string name="no_internet">No Internet connection</string>
+    <string name="snack_msg">No news found</string>
+    <string name="query">q</string>
+
+    <string name="put_url">url</string>
+    <string name="put_news">news</string>
+    <string name="put_type">type</string>
+
+    <string name="title_cat">Category</string>
+    <string name="title_search">Search</string>
+    <string name="single_news">webViewUrl</string>
+
+    <string name="facebook_app_id">548965735298772</string>
+    <string name="guarding_key">54460219-707f-4a07-9238-49f3b379b456</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Earthquake Settings</string>
+
+    <!-- Strings For page size Preference [CHAR LIMIT=30] -->
+    <string name="settings_page_size">Page size</string>
+    <string name="settings_page_size_key" translatable="false">page_size</string>
+    <string name="settings_page_size_default" translatable="false">50</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">newest</string>
+
+    <string name="order">order-by</string>
+
+</resources>
